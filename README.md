@@ -1,6 +1,5 @@
 # projeto_bimaster
-# Modelo de otimização da programação para tarefas de manutenção em uma plataforma de petróleo, 
-  respeitando restrições de segurança e simultaneidade entre tarefas iNcompatíveis 
+# Modelo de otimização da programação para tarefas de manutenção em uma plataforma de petróleo, respeitando restrições de segurança e simultaneidade entre tarefas iNcompatíveis 
 
 #### Alun(o/a): Edson Dias da Costa (https://github.com/edsondcosta).
 
