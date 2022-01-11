@@ -1,15 +1,14 @@
 # projeto_bimaster
 # Modelo de otimização da programação para tarefas de manutenção em uma plataforma de petróleo, respeitando restrições de segurança e simultaneidade entre tarefas iNcompatíveis 
 
-#### Alun(o/a): Edson Dias da Costa (https://github.com/edsondcosta).
+#### Aluno: Edson Dias da Costa (https://github.com/edsondcosta).
 
 #### Orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github).
 #### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
-Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e
-obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
+Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 - Repositório do Projeto: https://github.com/edsondcosta/projeto_bimaster.git
 ---
