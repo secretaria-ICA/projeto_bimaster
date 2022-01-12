@@ -40,7 +40,12 @@ resultando em riscos adicionais.
 
 
 ---
+### Restrições
 
+- As etapas programadas dentro de um mesmo serviço são sequenciais, não podemos ter inversão na ordem dos horários;
+- ...
+
+---
 Matrícula: 201.190.263
 
 Pontifícia Universidade Católica do Rio de Janeiro
