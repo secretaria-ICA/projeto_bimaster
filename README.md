@@ -42,9 +42,10 @@ resultando em riscos adicionais.
 
 ---
 
-### Restrições
+### Regras e Restrições
 
 - As etapas programadas dentro de um mesmo serviço são sequenciais, não podemos ter inversão na ordem dos horários;
+- Os serviços e etapas programadas de serviços diferentes podem ter sua sequência de execução alterada;
 - ...
 
 ---
