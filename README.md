@@ -32,6 +32,8 @@ trabalhos sobre o mar, operações de mergulho, entre outros.
 Trabalhos e Operações Simultâneas: Duas ou mais atividades ou tarefas com potencial interferência entre elas, ocorrendo ao mesmo tempo e no mesmo lugar, 
 resultando em riscos adicionais.
 
+---
+
 ### Condições antes da otimização:
 - A programação dos trabalhos de manutenção da plataforma é realizada de maneira manual pelos planejadores, utilizando sistemas e planilhas sem recursos de otimização. 
 - Por conta da forma manual de realização da programação e das restrições de simultaneidade, a alocação da mão de obra das equipes de manutenção sempre fica abaixo do HH disponível.
