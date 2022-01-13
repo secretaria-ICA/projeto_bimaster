@@ -40,7 +40,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
-### Pendências
+### Dúvidas e Pendências
 - ...
 
 ---
