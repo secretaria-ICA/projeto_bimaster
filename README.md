@@ -3,8 +3,8 @@
 
 #### Aluno: Edson Dias da Costa (https://github.com/edsondcosta).
 
-#### Orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+#### Orientador(/a/es/as): Felipe Borges  e/ou  Ana Carolina Abreu (OP).
+#### Co-orientador(/a/es/as): Anderson Nascimento (BI)
 
 ---
 
