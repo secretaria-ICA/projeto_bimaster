@@ -57,21 +57,16 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 10. Identificar as tarefas com distancia real menor que a distancia segura de suas características (passo 8);
 11. Identificar as tarefas que possuam simultaneamente as duas condições: a) sobreposição de horários (passo 9); b) distancia real menor que a distancia segura (passo 10); 
 12. Utilizar otimizador para escolher novos horários de início, eliminando a sobreposição de horários dos pares de tarefas com distancia real menor que a distancia segura estabelecida para as suas características.
-    Restrição de precedência: Dentro de um mesmo serviço, as etapas devem respeitar a sequencia definida na planilha. Exemplo: a etapa com ID 1202202 somente deve    iniciar após o fim da etapa com ID 1202201, e assim sucessivamente.
-    As etapas de um serviço não possuem restrição de precedência com etapas de outros serviços, mas devem atender as restrições de simultaneidade se os serviços forem incompatíveis conforme Matriz de Simultaneidade.
 
 
 
 ### Regras e Restrições
 
-- As etapas programadas dentro de um mesmo serviço são sequenciais, não podemos ter inversão na ordem dos horários;
-- Os serviços e etapas programadas de serviços diferentes podem ter sua sequência de execução alterada;
-- ...
+- Restrição de precedência: Dentro de um mesmo serviço, as etapas devem respeitar a sequencia definida na planilha. Exemplo: a etapa com ID 1202202 somente deve    iniciar após o fim da etapa com ID 1202201, e assim sucessivamente. Essa restrição será estabelecida no otimizador: dentro das etapas de um mesmo serviço, será inseridas restrições para que uma etapa inicie somente após o fim da etapa precedente.
+- As etapas de um serviço não possuem restrição de precedência com etapas de outros serviços, mas devem atender as restrições de simultaneidade se os serviços forem incompatíveis conforme Matriz de Simultaneidade.
 
 ---
 
-### Dúvidas e Pendências
-- ...
 
 ---
 
