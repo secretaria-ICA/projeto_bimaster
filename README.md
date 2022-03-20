@@ -16,12 +16,16 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 ### Resumo
 
 - O PRESENTE PROJETO apresenta um modelo de otimização da programação de serviços de manutenção planejados em uma plataforma de petróleo, para sua realização nos turnos de trabalho subsequentes. O modelo tem com objetivo maximizar o emprego da mão de obra disponível a bordo da plataforma, incorporando critérios de segurança e simultaneidade entre tarefas incompatíveis de serem realizadas em proximidade no mesmo intervalo de tempo.
-- O modelo utiliza .... Banco de Dados ... Algorítmos Genéticos ... Busines Inteligence ... Otimização de Planejamento ...
 
 - Plataformas marítimas de produção são instalações de processo compactas, responsáveis pela elevação e processamento primário de hidrocarbonetos a elevadas vazões e pressões. Equipes de operação e manutenção convivem para manter a planta em condições de segurança e eficiência dentro dos limites estabelecidos no projeto. Tais equipes desempenham diversas atividades e operações simultâneas para atingir o objetivo de produzir com segurança. Exemplos: manobras de partida e parada de equipamentos de processo, geração de energia, controle de estabilidade, trabalhos de manutenção e reparo, operações com embarcações, movimentação de cargas, abastecimento de produtos químicos, pousos e decolagens de helicópteros, entre outras. 
 - Concomitante com as tarefas operacionais, em cada plataforma diariamente são realizadas diversas atividades para manutenção e reparo, que podem envolver serviços a quente (ex: solda elétrica), abertura de equipamentos que operam com óleo ou gás inflamável, trabalhos elétricos, trabalhos em altura, trabalhos sobre o mar, operações de mergulho, entre outros.
 
 - Trabalhos e Operações Simultâneas: Duas ou mais atividades ou tarefas com potencial interferência entre elas, ocorrendo ao mesmo tempo e no mesmo lugar, resultando em riscos adicionais.
+
+- O modelo de otimização proposto parte de um Banco de Dados criado pelo autor, com tabelas de serviços, equipamentos e características de serviços, simulando a extração das informações a partir de sistemas transacionais de uma plataforma de petróleo. 
+- A psrtir dessas informações o presente projeto irá estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios, seguindo um passo a passo (algoritmo) que será apresentado a seguir.
+
+
 
 ---
 
