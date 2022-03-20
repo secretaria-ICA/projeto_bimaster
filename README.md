@@ -44,6 +44,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - Estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios.
 
 ### Passo a passo da solução (algoritmo)
+- Base de dados: Banco de dados transacional do sistema de manutenção de uma plataforma, contendo tabelas de serviços, equipamentos e características de trabalho.
 1. Convencionar matriz de simultaneidade com distancias seguras para cada par de características de tarefas incompatíveis de serem realizadas em proximidade no mesmo intervalo de tempo;
 2. Identificar as coordenadas x, y, z de cada equipamento da plataforma onde são realizados as tarefas de manutenção;
 3. Calcular a distância entre cada par equipamentos, com base em suas coordenadas utilizando a fórmula da distância entre dois pontos;
@@ -58,14 +59,20 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 11. Identificar as tarefas que possuam simultaneamente as duas condições: a) sobreposição de horários (passo 9); b) distancia real menor que a distancia segura (passo 10); 
 12. Utilizar otimizador para escolher novos horários de início, eliminando a sobreposição de horários dos pares de tarefas com distancia real menor que a distancia segura estabelecida para as suas características.
 
-
-
 ### Regras e Restrições
 
 - Restrição de precedência: Dentro de um mesmo serviço, as etapas devem respeitar a sequencia definida na planilha. Exemplo: a etapa com ID 1202202 somente deve    iniciar após o fim da etapa com ID 1202201, e assim sucessivamente. Essa restrição será estabelecida no otimizador: dentro das etapas de um mesmo serviço, será inseridas restrições para que uma etapa inicie somente após o fim da etapa precedente.
 - As etapas de um serviço não possuem restrição de precedência com etapas de outros serviços, mas devem atender as restrições de simultaneidade se os serviços forem incompatíveis conforme Matriz de Simultaneidade.
 
 ---
+### A prova de conceito apresentada nesse projeto desenvolveu o trabalho da disciplina de otimização de planejamento, incorporando novas variáveis possíveis de ocorrer, visando a aplicação real:
+- criadas tabelas relacionais de serviços, equipamentos e características de trabalho, simulando a extração de um bando de dados transacional de uma plataforma de petróleo;
+- cada tarefa de manutenção a ser realizada pode ter mais de uma característica, o que aumenta as possibilidades de restrições de simultaneidade;
+- para cada característica, pode haver mais de uma tarefa a ser realizada, o que também aumenta as possibilidades de restrições de simultaneidade;
+- matriz de simultaneidade com mais características combinadas, com outras possiblidades de restrições de simultaneidade;
+- utilizado modelo 3D de uma planta de processo: Fórmula da distância entre dois pontos com três dimensões;
+- inseridas restrições de precedência entre os trabalhos planejados;
+NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
 
 
 ---
