@@ -65,7 +65,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - As etapas de um serviço não possuem restrição de precedência com etapas de outros serviços, mas devem atender as restrições de simultaneidade se os serviços forem incompatíveis conforme Matriz de Simultaneidade.
 
 ---
-### A prova de conceito apresentada nesse projeto desenvolveu o trabalho da disciplina de otimização de planejamento, incorporando novas variáveis possíveis de ocorrer, visando a aplicação real:
+### A prova de conceito apresentada nesse projeto desenvolveu o trabalho da disciplina de Otimização de Planejamento, incorporando novas variáveis possíveis de ocorrer, visando a aplicação real:
 - criadas tabelas relacionais de serviços, equipamentos e características de trabalho, simulando a extração de um bando de dados transacional de uma plataforma de petróleo;
 - cada tarefa de manutenção a ser realizada pode ter mais de uma característica, o que aumenta as possibilidades de restrições de simultaneidade;
 - para cada característica, pode haver mais de uma tarefa a ser realizada, o que também aumenta as possibilidades de restrições de simultaneidade;
