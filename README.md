@@ -23,7 +23,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - Trabalhos e Operações Simultâneas: Duas ou mais atividades ou tarefas com potencial interferência entre elas, ocorrendo ao mesmo tempo e no mesmo lugar, resultando em riscos adicionais.
 
 - O modelo de otimização proposto parte de um Banco de Dados criado pelo autor, com tabelas de serviços, equipamentos e características de serviços, simulando a extração das informações a partir de sistemas transacionais de uma plataforma de petróleo. 
-- A psrtir dessas informações o presente projeto irá estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios, seguindo um passo a passo (algoritmo) que será apresentado a seguir.
+- A partir dessas informações o presente projeto irá estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios, seguindo um passo a passo (algoritmo) que será apresentado a seguir.
 
 
 
