@@ -13,7 +13,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
-### Resumo
+## Resumo
 
 - O PRESENTE PROJETO apresenta um modelo de otimização da programação de serviços de manutenção planejados em uma plataforma de petróleo, para sua realização nos turnos de trabalho subsequentes. O modelo tem com objetivo maximizar o emprego da mão de obra disponível a bordo da plataforma, incorporando critérios de segurança e simultaneidade entre tarefas incompatíveis de serem realizadas em proximidade no mesmo intervalo de tempo.
 
@@ -27,7 +27,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
-### O problema a ser otimizado
+## O problema a ser otimizado
 - Grande número de tarefas de manutenção planejadas diariamente, que podem possuir características que impedem sua realização em proximidade no mesmo intervalo de tempo. Como realizar a programação dessa demanda, de forma a maximizar o emprego da mão de obra disponível, respeitando os critérios de segurança e simultaneidade ?
 
 ### Condições antes da otimização
@@ -38,7 +38,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ---
 
-### A solução proposta 
+## A solução proposta 
 - Estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios.
 
 ### Passo a passo da solução (algoritmo)
