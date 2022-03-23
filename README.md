@@ -1,16 +1,16 @@
-# projeto_bimaster
 # Otimização da programação de serviços de manutenção em uma plataforma de petróleo, incorporando critérios de segurança e simultaneidade entre tarefas incompatíveis.
 
-#### Aluno: Edson Dias da Costa (https://github.com/edsondcosta).
+#### Aluno: [Edson Dias da Costa](https://github.com/edsondcosta)
 
-#### Orientador(/a/es/as): Felipe Borges  e/ou  Ana Carolina Abreu (OP).
-#### Co-orientador(/a/es/as): Anderson Nascimento (BI)
+#### Orientador: Felipe Borges (OP).
+#### Co-orientador: Anderson Nascimento (BI)
 
 ---
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 - Repositório do Projeto: https://github.com/edsondcosta/projeto_bimaster.git
+
 ---
 
 ### Resumo
@@ -25,17 +25,15 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - O modelo de otimização proposto parte de um Banco de Dados criado pelo autor, com tabelas de serviços, equipamentos e características de serviços, simulando a extração das informações a partir de sistemas transacionais de uma plataforma de petróleo. 
 - A partir dessas informações o presente projeto irá estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios, seguindo um passo a passo (algoritmo) que será apresentado a seguir.
 
-
-
 ---
 
-### O problema a ser otimizado:
+### O problema a ser otimizado
 - Grande número de tarefas de manutenção planejadas diariamente, que podem possuir características que impedem sua realização em proximidade no mesmo intervalo de tempo. Como realizar a programação dessa demanda, de forma a maximizar o emprego da mão de obra disponível, respeitando os critérios de segurança e simultaneidade ?
 
-### Condições antes da otimização:
-- A programação dos trabalhos de manutenção da plataforma é realizada de maneira manual pelos planejadores, utilizando sistemas e planilhas sem recursos de otimização. 
-- Por conta da forma manual de realização da programação e das restrições de simultaneidade, a alocação da mão de obra das equipes de manutenção sempre fica abaixo do HH disponível.
-- Diariamente é realizada uma reunião de avaliação da simultaneidade com toda a liderança da plataforma. Por conta da forma manual de realização, essa reunião consome grande HH para discussão e reprogramação dos trabalhos identificados como incompatíveis para realização simultânea.
+### Condições antes da otimização
+- A programação dos trabalhos de manutenção da plataforma é realizada de maneira manual pelos planejadores, utilizando sistemas e planilhas sem recursos de otimização;
+- Por conta da forma manual de realização da programação e das restrições de simultaneidade, a alocação da mão de obra das equipes de manutenção sempre fica abaixo do HH disponível;
+- Diariamente é realizada uma reunião de avaliação da simultaneidade com toda a liderança da plataforma. Por conta da forma manual de realização, essa reunião consome grande HH para discussão e reprogramação dos trabalhos identificados como incompatíveis para realização simultânea;
 - Falhas na avaliação de simultaneidade podem ocorrer, sendo identificadas somente no momento de execução dos trabalhos. Quando essa condição ocorre, por questões de segurança é exigida a paralização de pelos menos um dos trabalhos incompatíveis, gerando ociosidade para a mão de obra alocada nestes trabalhos e desperdício de HH.
 
 ---
@@ -73,7 +71,16 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 - utilizado modelo 3D de uma planta de processo: Fórmula da distância entre dois pontos com três dimensões;
 - inseridas restrições de precedência entre os trabalhos planejados;
 - NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
+---
+## Resultados Obtidos
 
+### O modelo permite a eliminação das restrições de simultaneidade pela eliminação da sobreposição de horários. 
+- No dia 1, como havia muitas restrições de precedência e também tarefas repetidas devido possuírem mais de uma característica, o otimizador obteve 2% de melhoria na utilização da mão de obra alocada, aumentando a utilização de 263 para 272 horas, das 371 horas possíveis que foram alocadas para o dia. 
+- No dia 2, como havia poucas restrições de precedência e nenhuma tarefa repetida por possuir mais de uma característica, o otimizador permitiu a utilização de 100% da mão de obra alocada, aumentando das 40 horas iniciais  (31%) para as 130 horas possíveis que foram alocadas para o dia. 
+- No dia 3, como também havia poucas restrições de precedência e nenhuma tarefa repetida por possuir mais de uma característica, o otimizador também permitiu a utilização de 100% da mão de obra alocada, aumentando das 90 horas iniciais  (87%) para as 104 horas possíveis que foram alocadas para o dia. 
+- A partir das coordenadas de cada trabalho e de suas características, o modelo permite identificar facilmente os pares de trabalhos que não atendem ao critério de distância segura entre eles.
+- As reuniões diárias de avaliação da simultaneida podem tornar-se mais reduzidas, liberando o HH da equipe envolvida em sua realização, considerando que a matriz identifica os pares de trabalhos que não atendem o critério de distância segura entre eles. 
+- A otimização dos horários de início de cada trabalho permite maior utilização da mão de obra disponível, uma vez que remove a sobreposição de horários entre os pares de trabalhos incompatíveis para realização simultânea. 
 
 ---
 
