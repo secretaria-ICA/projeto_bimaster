@@ -47,7 +47,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 2. Identificar as coordenadas x, y, z de cada equipamento da plataforma onde são realizados as tarefas de manutenção;
 3. Calcular a distância entre cada par equipamentos, com base em suas coordenadas utilizando a fórmula da distância entre dois pontos;
 4. Separar a relação de tarefas de manutenção planejadas para um dia, com seus horários de realização previstos;
-5. Identificar a distância entre cada par de tarefas, com base nos equipamentos onde serão executadas;
+5. Identificar a distância entre cada par de tarefas, com base nas distâncias entre os equipamentos onde serão executadas (passo 3);
 6. Identificar as características de cada tarefa de manutenção; 
 	- Nota: Tarefas que não possuam características com impacto na simultaneidade, não irão entrar na análise nem no otimizador, pois podem ser programadas para qualquer horário.
 7. Buscar na matriz de simultaneidade as distancias seguras convencionadas para cada par de características das tarefas planejadas para o dia selecionado;
