@@ -2,7 +2,7 @@
 
 #### Aluno: [Edson Dias da Costa](https://github.com/edsondcosta)
 
-#### Orientador: Felipe Borges (OP).
+#### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
 #### Co-orientador: Anderson Nascimento (BI)
 
 ---
