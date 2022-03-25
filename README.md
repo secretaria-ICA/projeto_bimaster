@@ -49,7 +49,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 4. Separar a relação de tarefas de manutenção planejadas para um dia, com seus horários de realização previstos;
 5. Identificar a distância entre cada par de tarefas, com base nos equipamentos onde serão executadas;
 6. Identificar as características de cada tarefa de manutenção; 
-	Nota: Tarefas que não possuam características com impacto na simultaneidade, não irão entrar na análise nem no otimizador, pois podem ser programadas para qualquer horário.
+	- Nota: Tarefas que não possuam características com impacto na simultaneidade, não irão entrar na análise nem no otimizador, pois podem ser programadas para qualquer horário.
 7. Buscar na matriz de simultaneidade as distancias seguras convencionadas para cada par de características das tarefas planejadas para o dia selecionado;
 8. Comparar a distância real entre as tarefas (passo 5) e a distância de segurança de suas características (passo 7);
 9. Identificar a sobreposição de horários das tarefas programadas para o dia, com base em seus horários de início e fim previstos, utilizando fórmula de sobreposição de horários;
