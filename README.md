@@ -70,7 +70,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 - matriz de simultaneidade com mais características combinadas, com outras possiblidades de restrições de simultaneidade;
 - utilizado modelo 3D de uma planta de processo: Fórmula da distância entre dois pontos com três dimensões;
 - inseridas restrições de precedência entre os trabalhos planejados;
-- NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
+	- NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
 ---
 ## Resultados Obtidos
 
