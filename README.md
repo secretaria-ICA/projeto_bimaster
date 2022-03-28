@@ -82,7 +82,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 ### Arquivos com a modelagem da solução
 - Com base no passo a passo da solução (algoritmo) desenvolvido conforme itens anteriores, na pasta [modelo_prova_conceito](https://github.com/edsondcosta/projeto_bimaster/tree/main/modelo_prova_conceito) estão os arquivos com o Modelo de Otimização aplicado para três dias. 
 - Cada dia (dia 1, dia 2, dia 3) possui combinação de serviços, etapas, características e regras de precedência distintas. 
-- Para cada combinação pudemos observar resultados distintos quando rodamos o otimizador por Algoritimos Genéticos do Excel (Solver - Evolutionary). Os recultados estão descritos a seguir.
+- Para cada combinação pudemos observar resultados distintos quando rodamos o otimizador por Algoritimos Genéticos do Excel (Solver - Evolutionary). Os resultados estão descritos a seguir.
 
 ---
 ## Resultados Obtidos
