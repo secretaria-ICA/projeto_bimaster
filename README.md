@@ -42,7 +42,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 - Estabelecer critérios de distância segura entre as tarefas com características de simultaneidade e eliminar sobreposição de horários das tarefas que não atendem aos critérios.
 
 ### Passo a passo da solução (algoritmo)
-- Base de dados: Banco de dados transacional do sistema de manutenção de uma plataforma, contendo tabelas de serviços, equipamentos e características de trabalho.
+- Base de dados: Banco de dados transacional do sistema de manutenção de uma plataforma, contendo tabelas de serviços, equipamentos e características de trabalho (ver pasta [base_dados](https://github.com/edsondcosta/projeto_bimaster/tree/main/base_dados)).
 1. Convencionar matriz de simultaneidade com distancias seguras para cada par de características de tarefas incompatíveis de serem realizadas em proximidade no mesmo intervalo de tempo;
 2. Identificar as coordenadas x, y, z de cada equipamento da plataforma onde são realizados as tarefas de manutenção;
 3. Calcular a distância entre cada par equipamentos, com base em suas coordenadas utilizando a fórmula da distância entre dois pontos;
@@ -71,6 +71,13 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 - utilizado modelo 3D de uma planta de processo: Fórmula da distância entre dois pontos com três dimensões;
 - inseridas restrições de precedência entre os trabalhos planejados;
 	- NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
+
+---
+### Arquivos com a modelagem da solução
+- Com base no passo a passo da solução (algoritmo) descrito no item anterior, na pasta [modelo_prova_conceito](https://github.com/edsondcosta/projeto_bimaster/tree/main/modelo_prova_conceito) estão os arquivos com o Modelo de Otimização aplicado para três dias. 
+- Cada dia (dia 1, dia 2, dia 3) possui combinação de serviços, etapas, características e regras de precedência distintas. 
+- Para cada combinação pudermos observar resultados distintos quando rodamos o otimizador por Algoritimos Genéticos do Excel (Solver - Evolutionary). Os recultados estão descritos a seguir.
+
 ---
 ## Resultados Obtidos
 
