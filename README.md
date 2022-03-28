@@ -57,10 +57,15 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 11. Identificar as tarefas que possuam simultaneamente as duas condições: a) sobreposição de horários (passo 9); b) distancia real menor que a distancia segura (passo 10); 
 12. Utilizar otimizador para escolher novos horários de início, eliminando a sobreposição de horários dos pares de tarefas com distancia real menor que a distancia segura estabelecida para as suas características.
 
-### Regras e Restrições
+## Regras e Restrições
 
-- Restrição de precedência: Dentro de um mesmo serviço, as etapas devem respeitar a sequencia definida na planilha. Exemplo: a etapa com ID 1202202 somente deve    iniciar após o fim da etapa com ID 1202201, e assim sucessivamente. Essa restrição será estabelecida no otimizador: dentro das etapas de um mesmo serviço, será inseridas restrições para que uma etapa inicie somente após o fim da etapa precedente.
+### Restrições de precedência
+- Dentro de um mesmo serviço, as etapas devem respeitar a sequencia definida na planilha. Exemplo: a etapa com ID 1202202 somente deve    iniciar após o fim da etapa com ID 1202201, e assim sucessivamente. Essa restrição será estabelecida no otimizador: dentro das etapas de um mesmo serviço, será inseridas restrições para que uma etapa inicie somente após o fim da etapa precedente.
 - As etapas de um serviço não possuem restrição de precedência com etapas de outros serviços, mas devem atender as restrições de simultaneidade se os serviços forem incompatíveis conforme Matriz de Simultaneidade.
+
+### Etapas com mais de uma característica de simultaneidade
+-  Quando isso ocorre, uma mesma etapa pode impactar de formas distintas etapas de outros serviços sendo executados no mesmo intervalo de tempo. Essa possibilidade será modelada dentro das matrizes, gerando uma linha para cada característica com repetição das respectivas etapas associadas, de forma que sejam identificadas todas as combinações que se encaixem no critério estabelecido.
+
 
 ---
 ### A prova de conceito apresentada nesse projeto desenvolveu o trabalho da disciplina de Otimização de Planejamento, incorporando novas variáveis possíveis de ocorrer, visando a aplicação real:
