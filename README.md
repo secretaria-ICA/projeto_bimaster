@@ -76,7 +76,6 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 - matriz de simultaneidade com mais características combinadas, com outras possiblidades de restrições de simultaneidade;
 - utilizado modelo 3D de uma planta de processo: Fórmula da distância entre dois pontos com três dimensões;
 - inseridas restrições de precedência entre os trabalhos planejados;
-	- NOTA: o projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras.
 
 ---
 ### Arquivos com a modelagem da solução
@@ -94,6 +93,15 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 - A partir das coordenadas de cada trabalho e de suas características, o modelo permite identificar facilmente os pares de trabalhos que não atendem ao critério de distância segura entre eles.
 - As reuniões diárias de avaliação da simultaneida podem tornar-se mais reduzidas, liberando o HH da equipe envolvida em sua realização, considerando que a matriz identifica os pares de trabalhos que não atendem o critério de distância segura entre eles. 
 - A otimização dos horários de início de cada trabalho permite maior utilização da mão de obra disponível, uma vez que remove a sobreposição de horários entre os pares de trabalhos incompatíveis para realização simultânea. 
+
+---
+## Conclusão
+- A modelagem do problema e a aplicação do otimizador apresentaram resultados satisfatórios, embora muitas restrições (dia 1) possuam impacto negativo na eficiência do otimizador.
+- Como possíveis desenvolvimentos para melhoria da Prova de Conceito, podemos ainda sugerir para trabalhos futuros: 
+1) inserir avaliação da incerteza para a duração esperada de cada trabalho; 
+2) Desenvolver o Modelo de Otimização em Python; 
+3) Desenvolver Projeto em BI com dashboards sobre as interferências de simultaneidade que mais ocorrem, tipos de tarefas, equipamentos e áres de trabalho na plataforma para identificar fragilidades etc.;
+- O projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras. As avaliações das reuniões de trabalho estão sendo promissoras para sua aplicação prática.
 
 ---
 
