@@ -103,7 +103,7 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 1) inserir avaliação da incerteza para a duração esperada de cada trabalho; 
 2) Desenvolver o Modelo de Otimização em Python; 
 3) Desenvolver Projeto em BI com dashboards sobre as interferências de simultaneidade que mais ocorrem, tipos de tarefas, equipamentos e áres de trabalho na plataforma para identificar fragilidades etc.;
-- O projeto está sendo discutido com a SAP, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados na Petrobras. As avaliações das reuniões de trabalho estão sendo promissoras para sua aplicação prática.
+- O projeto está sendo discutido com uma empresa que faz a gestão de dados empresariais, visando a integração da solução com os módulos de Planejamento de Manutenção e Permissão de Trabalho utilizados em uma empresa de Óleo e Gás Offshore. As avaliações das reuniões de trabalho estão sendo promissoras para sua aplicação prática.
 
 ---
 
