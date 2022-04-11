@@ -43,6 +43,8 @@ Trabalho apresentado ao curso de Pós-graduação [BI MASTER](https://ica.puc-ri
 
 ### Passo a passo da solução (algoritmo)
 - Base de dados: Banco de dados transacional do sistema de manutenção de uma plataforma, contendo tabelas de serviços, equipamentos e características de trabalho (ver pasta [base_dados](https://github.com/edsondcosta/projeto_bimaster/tree/main/base_dados)).
+	- Nota: O banco de dados foi elaborado pelo autor, sem utilizar dados reais ou sigilosos, de forma a tornar pública a divulgação do trabalho disponibilizado neste repositório.
+
 1. Convencionar matriz de simultaneidade com distancias seguras para cada par de características de tarefas incompatíveis de serem realizadas em proximidade no mesmo intervalo de tempo;
 2. Identificar as coordenadas x, y, z de cada equipamento da plataforma onde são realizados as tarefas de manutenção;
 3. Calcular a distância entre cada par equipamentos, com base em suas coordenadas utilizando a fórmula da distância entre dois pontos;
