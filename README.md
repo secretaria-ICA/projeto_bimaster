@@ -1,4 +1,4 @@
-# Otimização da programação de serviços de manutenção em uma plataforma de petróleo, incorporando critérios de segurança e simultaneidade entre tarefas incompatíveis.
+# Otimizacao_da_Programacao_de-Servicos_de_Manutencao_em_uma_Plataforma_de_Petroleo_Incorporando_Criterios_de_Seguranca_e_Simultaneidade_entre-Tarefas_Incompativeis
 
 #### Aluno: [Edson Dias da Costa](https://github.com/edsondcosta)
 
